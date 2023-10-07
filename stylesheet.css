@@ -1,0 +1,33 @@
+/* Apply style to <h1> using a CSS selector */
+header h1 {
+    color: blue;
+}
+
+/* Create and apply a class to style multiple elements */
+.my-class {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Apply an id to an element and style it */
+#my-id {
+    color: red;
+}
+
+/* Change color of <a> on hover */
+a:hover {
+    color: green; /* Change the color to your desired hover color */
+    text-decoration: underline; /* You can add additional styles if needed */
+}
+
+/* Change box model properties */
+.section {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Additional styles for the image */
+img {
+    max-width: 100%;
+    height: auto;
+}
